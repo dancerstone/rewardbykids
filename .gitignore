@@ -6,3 +6,6 @@ node_modules/
 # 本地真实头像（不提交到 GitHub，线上部署用）
 src/avatar.js
 avatar.jpg
+
+# 真实部署配置（含域名和数据库 ID，不提交）
+wrangler.toml

@@ -1,0 +1,14 @@
+name = "reward-system"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# 自定义域名绑定（替换为你的域名）
+routes = [
+  { pattern = "your-domain.com", custom_domain = true }
+]
+
+# D1 数据库绑定（替换 database_id 为你的实际 ID）
+[[d1_databases]]
+binding = "DB"
+database_name = "reward-db"
+database_id = "your-database-id-here"
