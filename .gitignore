@@ -2,3 +2,7 @@ node_modules/
 .wrangler/
 .dev.vars
 .mf/
+
+# 本地真实头像（不提交到 GitHub，线上部署用）
+src/avatar.js
+avatar.jpg
